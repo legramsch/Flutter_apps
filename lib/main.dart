@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(new App());
 
+<<<<<<< HEAD
 // #docregion MyApp
 class MyApp extends StatelessWidget {
   // #docregion build
@@ -68,4 +68,9 @@ class RandomWordsState extends State<RandomWords> {
 class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => new RandomWordsState();
+}
+=======
+class App extends StatelesWidget {
+
+
 }
